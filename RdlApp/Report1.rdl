@@ -473,7 +473,7 @@
                                   <Value>=Fields!Profit.Value</Value>
                                   <Style>
                                     <FontFamily />
-                                    <Color>#333333</Color>
+                                    <Color>=SWITCH(Fields!Profit.Value &lt;=100, "Red")</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
